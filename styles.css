@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+
+    color: #F4F4F9;
+    background-color: #2F4550;
+    margin: 0;
+
+    font-family: Quicksand;
+}
+
+a {
+    color: #F4F4F9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: dashed;
+}
+
+.Index-Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+}
+
+.Index-Header h1 {
+    margin: auto;
+    font-size: 72px;
+}
+
+.Index-Header h2 {
+    margin: auto;
+}
+
+.Index-Nav h3 {
+    width: 320px;
+    height: 80px;
+
+    margin: 0;
+
+    line-height: 80px;
+    text-align: center;
+
+}
+
+.Index-Nav {
+    margin-top: 20vh;
+    display: flex;
+}
+
+.Index-Nav a {
+    background-color: #586F7C;
+    color: #F4F4F9;
+
+    width: 320px;
+    height: 80px;
+
+}
+
+.Button-1 {
+    margin-left: auto;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+    border: solid white;
+    border-width:  2px 2px 2px 2px;
+}
+
+.Button-2 {
+    margin-right: auto;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left-width: 0;
+
+    border: solid white;
+    border-width:  2px 2px 2px 1px;
+}
+
+.Index-Footer {
+    text-align: center;
+    margin: 20px
+}
