@@ -36,6 +36,11 @@ a:hover {
     color: red;
 }
 
+a.a-Info:hover {
+    color: white;
+    cursor: help;
+}
+
 /* Index */
 
 .Index-Header {
@@ -109,4 +114,37 @@ a:hover {
 
 .projet h1 {
     text-align: center;
+}
+
+/* Info */
+
+.Info-Header {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 8vh;
+}
+
+.Info section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Info-Button {
+    align-content: center;
+    margin-top: 5vh;
+
+    border: 2px solid white;
+    border-radius: 100vh;
+
+    width: 25vw;
+    height: 8vh;
+
+    line-height: 8vh;
+    text-align: center;
+}
+
+.Info-Button img {
+    position:static;
+    left: 0;
 }
