@@ -19,6 +19,25 @@ a:hover {
     text-decoration: dashed;
 }
 
+.Main-Header {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+}
+
+.Main-Header div {
+    margin: auto;
+    height: 100px;
+    line-height: 50px;
+}
+
+.Main-Header a:hover {
+    color: red;
+}
+
+/* Index */
+
 .Index-Header {
     width: 100%;
     display: flex;
@@ -83,4 +102,11 @@ a:hover {
 .Index-Footer {
     text-align: center;
     margin: 20px
+}
+
+
+/* Projet */
+
+.projet h1 {
+    text-align: center;
 }
