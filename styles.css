@@ -8,11 +8,13 @@ body {
     margin: 0;
 
     font-family: Quicksand;
+    
 }
 
 a {
     color: #F4F4F9;
     text-decoration: none;
+    background-image: none;
 }
 
 a:hover {
@@ -121,7 +123,7 @@ a.a-Info:hover {
 .Info-Header {
     text-align: center;
     font-size: 42px;
-    margin-bottom: 8vh;
+    margin-bottom: 15vh;
 }
 
 .Info section {
@@ -132,7 +134,7 @@ a.a-Info:hover {
 }
 .Info-Button {
     align-content: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
 
     border: 2px solid white;
     border-radius: 100vh;
@@ -144,7 +146,9 @@ a.a-Info:hover {
     text-align: center;
 }
 
-.Info-Button img {
-    position:static;
-    left: 0;
+#bg {
+    background-image: none;
+}
+#Youtube:hover ~ #bg {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png');
 }
