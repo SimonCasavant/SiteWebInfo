@@ -14,7 +14,6 @@ body {
 a {
     color: #F4F4F9;
     text-decoration: none;
-    background-image: none;
 }
 
 a:hover {
@@ -120,6 +119,12 @@ a.a-Info:hover {
 
 /* Info */
 
+body.Info {
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f6e4e0c2-2865-4b9e-a81f-e59aa1d6aeef/df4s3qr-ed81fbfe-3519-4869-9ca1-6306b2e6f2f4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2ZTRlMGMyLTI4NjUtNGI5ZS1hODFmLWU1OWFhMWQ2YWVlZlwvZGY0czNxci1lZDgxZmJmZS0zNTE5LTQ4NjktOWNhMS02MzA2YjJlNmYyZjQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NY3DvvxUJPLSa5JTrwpQ5hEHbVLj_OjtmA-N7iOI85U");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .Info-Header {
     text-align: center;
     font-size: 42px;
@@ -144,11 +149,10 @@ a.a-Info:hover {
 
     line-height: 8vh;
     text-align: center;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-#bg {
-    background-image: none;
-}
-#Youtube:hover ~ #bg {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png');
-}
