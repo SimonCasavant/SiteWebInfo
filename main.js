@@ -1,4 +1,4 @@
-alert("Test");
+// alert("Test");
 
 function Youtube() {
     document.getElementById("YouTube").style.backgroundImage = "url('https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg')"
@@ -31,7 +31,7 @@ function TwitterLeave() {
 }
 
 function Valorant() {
-    document.getElementById("Valorant").style.backgroundImage = "url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt79971d6ef53d8a5f/5e8cdeaa07387e0c9bfff0c5/IMAGE_4.jpg')"
+    document.getElementById("Valorant").style.backgroundImage = "url('https://prod.assets.earlygamecdn.com/images/Valorant-Logo_2021-09-17-094641_jsqj.png')"
     document.getElementById("Valorant").style.color = "transparent"
 }
 

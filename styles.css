@@ -115,8 +115,49 @@ a.a-Info:hover {
 
 .projet h1 {
     text-align: center;
+
 }
 
+.projet-selector {
+    display: flex;
+    flex-direction: column;
+}
+.projet-selector h1{
+    margin: 75px;
+    font-weight: 100;
+}
+
+.projet-selector a {
+    text-align: center;
+
+    border: white solid 2px;
+    width: 30vw;
+    margin: auto;
+
+    margin-bottom: 100px;
+    padding: 100px;
+}
+.projet-1 {
+    background: url("https://d2m1fknkk92w8x.cloudfront.net/uploads/img-tiny/gbi-projet-cssh2-full-9057cc.jpg?v=20230214152413-prod");
+    background-size: cover;
+}
+
+.projet-selector div:hover {
+    text-shadow:
+    -2px -2px 0 #000,
+     0   -2px 0 #000,
+     2px -2px 0 #000,
+     2px  0   0 #000,
+     2px  2px 0 #000,
+     0    2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  0   0 #000;
+}
+
+.projet-2 {
+    background: url("https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg");
+    background-size: cover;
+}
 /* Info */
 
 body.Info {
@@ -156,3 +197,10 @@ body.Info {
     background-size: cover;
 }
 
+.Back-Button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    font-size: 32px;
+}
