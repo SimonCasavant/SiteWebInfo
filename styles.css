@@ -165,6 +165,34 @@ a.a-Info:hover {
     background: url("https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg");
     background-size: cover;
 }
+
+/*  Projets Casavant*/
+
+body.Casa {
+    padding: 0 20vw 0 20vw; 
+}
+
+.Casa-Header {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: solid 1px white;
+}
+
+.Casa-Desc {
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 10vw 0 10vw;     
+}
+
+.Casa-Image {
+    display: flex;
+}
+
+.Casa-Image img{
+    width: 720px;
+    margin: auto;
+}
+
 /* Info */
 
 body.Info {
