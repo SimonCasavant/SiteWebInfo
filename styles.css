@@ -185,12 +185,103 @@ body.Casa {
 }
 
 .Casa-Image {
+    margin-top: 5vh;
     display: flex;
 }
 
 .Casa-Image img{
     width: 720px;
     margin: auto;
+
+    filter: none;
+    transition: all .4s;
+
+    display: block;
+    position: relative;
+}
+
+.Casa-Image:hover img{
+    filter: blur(2px) brightness(50%);
+    transition: all .4s;
+}
+
+.Casa-Img-Desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: all .4s;
+}
+
+.Casa-Image:hover .Casa-Img-Desc {
+    opacity: 1;
+    transition: all .4s;
+}
+
+.Casa-Img-Desc a {
+    text-decoration: underline;
+}
+
+/* Wix */
+
+body.Wix {
+    padding: 0 20vw 0 20vw; 
+}
+
+.Wix-Header {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: solid 1px white;
+}
+
+.Casa-Desc {
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 10vw 0 10vw;     
+}
+
+.Wix-Image {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.Wix-Image img{
+    width: 720px;
+    margin: auto;
+
+    filter: none;
+    transition: all .4s;
+
+    display: block;
+    position: relative;
+}
+
+.Wix-Image:hover img{
+    filter: blur(2px) brightness(50%);
+    transition: all .4s;
+}
+
+.Wix-Img-Desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: all .4s;
+}
+
+.Wix-Image:hover .Wix-Img-Desc {
+    opacity: 1;
+    transition: all .4s;
+}
+
+.Casa-Img-Desc a {
+    text-decoration: underline;
 }
 
 /* Info */
