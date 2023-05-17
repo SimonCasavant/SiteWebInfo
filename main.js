@@ -49,3 +49,13 @@ function SpeedrunLeave() {
     document.getElementById("Speedrun").style.backgroundImage = "none"
     document.getElementById("Speedrun").style.color = "white"
 }
+
+function Pointer(e) {
+    let x = e.clientX;
+    let y = e.clientY;
+
+    document.getElementById("pointer").style.top = y + "px"
+    document.getElementById("pointer").style.left = x + "px"
+    //alert("Mouse Moved!")
+
+}
