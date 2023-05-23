@@ -59,3 +59,11 @@ function Pointer(e) {
     //alert("Mouse Moved!")
 
 }
+
+function test() {
+    document.getElementById("button").style.display = "none"
+    document.getElementById("yt-bg").style.display = "block"
+    document.getElementById("container").style.display = "block"
+    document.getElementById("Button-1").style.backgroundColor = "transparent"
+    document.getElementById("Button-2").style.backgroundColor = "transparent"
+}
