@@ -148,6 +148,10 @@ a.a-Info:hover {
     margin-bottom: 100px;
     padding: 100px;
 }
+.projet-0 {
+    background: url("https://ae01.alicdn.com/kf/Hc7a08d0943374b74a064e10a7e63146cV/Xiaomi-PC-portable-Pro-x14-i7-11370H-GeForce-RTX-3050-16-go-512-go-1-to.jpg");
+    background-size: cover;
+}
 .projet-1 {
     background: url("https://d2m1fknkk92w8x.cloudfront.net/uploads/img-tiny/gbi-projet-cssh2-full-9057cc.jpg?v=20230214152413-prod");
     background-size: cover;
@@ -405,4 +409,20 @@ a.reset {
     cursor: none;
     top: 10;
     left: 10;
+}
+
+#Button-1 {
+    cursor: none;
+}
+
+#Button-2 {
+    cursor: none;
+}
+
+#Index-Footer {
+    cursor: none;
+}
+
+#Index-Footer:hover {
+    color: aqua;
 }
