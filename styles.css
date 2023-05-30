@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body {
@@ -334,6 +333,68 @@ body.Info {
 
     font-size: 32px;
 }
+
+/* Captures */
+
+.Captures-Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 1px solid white;
+}
+
+.Captures-Header h1 {
+    margin-bottom: 5px;
+}
+
+.Captures-Header a {
+    font-size: 1.5em;
+
+    margin-bottom: 20px;
+}
+
+.Captures-Header a:hover {
+    color: red;
+}
+
+
+
+.Captures-Desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.Captures-Desc h1 {
+    margin: 0;
+
+    font-size: 2em;
+}
+
+.Captures-Desc span {
+    background-color: #c9cc02;
+    color: black;
+}
+
+.Captures-Desc p {
+    margin-top: 30px;
+
+    font-size: 1.2em;
+}
+
+
+
+.Captures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20vh;
+}
+
 
 /* ??? */
 
